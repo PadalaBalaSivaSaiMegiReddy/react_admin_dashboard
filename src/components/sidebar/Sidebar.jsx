@@ -22,7 +22,7 @@ function Sidebar() {
             </li>
             <li className="sidebarListItem">
             <TrendingUpIcon/>
-            Sales
+            Sales 
             </li>
           </ul>
         </div>
