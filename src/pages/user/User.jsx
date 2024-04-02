@@ -1,9 +1,9 @@
 import "./User.css";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
-import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
-import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
-import MailOutlineIcon from '@mui/icons-material/MailOutline';
-import LocationSearchingIcon from '@mui/icons-material/LocationSearching';
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import LocationSearchingIcon from "@mui/icons-material/LocationSearching";
 
 export default function User() {
   return (
@@ -51,7 +51,69 @@ export default function User() {
             </div>
           </div>
         </div>
-        <div className="userUpdate"></div>
+        <div className="userUpdate">
+          <span className="userUpdateTitle">Edit</span>
+          <form className="UserUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label htmlFor="">Username</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label htmlFor="">Fullname</label>
+                <input
+                  type="text"
+                  placeholder="Anna Becker"
+                  className="userUpdateInput"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label htmlFor="">Email</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99@gmail.com"
+                  className="userUpdateInput"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label htmlFor="">Phone</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label htmlFor="">Username</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
+              </div>
+
+              <div className="userUpdateItem">
+                <label htmlFor="">Username</label>
+                <input
+                  type="text"
+                  placeholder="annabeck99"
+                  className="userUpdateInput"
+                />
+              </div>
+
+
+            </div>
+            <div className="userUpdateRight"></div>
+          </form>
+        </div>
       </div>
     </div>
   );
