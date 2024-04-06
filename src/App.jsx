@@ -21,7 +21,7 @@ function App() {
         <Sidebar/>
         <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path="/users" element={<UserList/>}/>
+        <Route path="/user" element={<UserList/>}/>
         <Route path="/user/:userId" element={<User/>}/>
         <Route path="/newUser" element={<NewUser/>}/>
         <Route path="/products" element={<ProductList/>}/>
